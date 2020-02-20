@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TableauAccueilComponent } from './tableau-accueil/tableau-accueil.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'accueil', component: TableauAccueilComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
