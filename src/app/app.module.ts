@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { MapComponent } from './map/map.component';
 import { TableTestComponent } from './table-test/table-test.component';
+import { FormulaireComponent } from './formulaire/formulaire.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TableTestComponent } from './table-test/table-test.component';
     TableauAccueilComponent,
     MenuComponent,
     MapComponent,
-    TableTestComponent
+    TableTestComponent,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
