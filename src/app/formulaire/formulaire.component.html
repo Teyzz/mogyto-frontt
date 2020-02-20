@@ -1,0 +1,25 @@
+<div class="form-group">
+    <label for="id">
+      Id du drone
+    </label>
+    <input type="text" id="id" class="form-control" name="id" ngModel>
+</div>
+<div class="form-group">
+    <label for="name">
+      Nom du drone
+    </label>
+    <input type="text" id="name" class="form-control" name="name" ngModel>
+</div>
+<div class="form-group">
+    <label for="status">
+      État du drone
+    </label>
+    <select id="status" class="form-control" name="status" ngModel>
+      <option value="en livraison">En livraison</option>
+      <option value="en charge">En charge</option>
+      <option value="disponible">Disponible</option>
+      <option value="en maintenance">En maintenance</option>
+    </select>
+</div>
+<div><button class="btn btn-primary" type="submit">Enregistrer</button>
+</div>

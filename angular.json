@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss", 
+=======
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+>>>>>>> 87c60b651559d3d1d7537e72e7ad93c59c83b5c2
               "node_modules/leaflet/dist/leaflet.css"
             ],
+ 
             "scripts": []
           },
           "configurations": {
@@ -94,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -125,6 +132,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "mogyto-Front"
 }
