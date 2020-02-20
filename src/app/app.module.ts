@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableauAccueilComponent } from './tableau-accueil/tableau-accueil.component';
 import { DroneServiceService } from './service/drone-service.service';
+import { FormulaireComponent } from './formulaire/formulaire.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableauAccueilComponent
+    TableauAccueilComponent,
+    FormulaireComponent
   ],
   imports: [
     BrowserModule,
