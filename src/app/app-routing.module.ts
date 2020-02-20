@@ -4,7 +4,7 @@ import { TableauAccueilComponent } from './tableau-accueil/tableau-accueil.compo
 
 
 const routes: Routes = [
-  { path: 'accueil', component: TableauAccueilComponent }
+  { path: 'home', component: TableauAccueilComponent }
 ];
 
 @NgModule({
