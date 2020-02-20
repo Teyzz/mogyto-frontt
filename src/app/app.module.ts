@@ -6,6 +6,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableauAccueilComponent } from './tableau-accueil/tableau-accueil.component';
+import { DroneServiceService } from './service/drone-service.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { TableauAccueilComponent } from './tableau-accueil/tableau-accueil.compo
     FormsModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    DroneServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
